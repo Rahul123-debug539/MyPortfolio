@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rahul's Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo">
+        <img src="/image/logo-transparent-png.png" alt="Rahul Logo">
+      </div>
+      <h1>Rahul Kumar Tiwari</h1>
+
+      <!-- Hamburger Menu Icon -->
+      <div class="hamburger" id="hamburger">
+        &#9776; <!-- Unicode for ☰ -->
+      </div>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Dummy Sections -->
+   <section id="home">
+    <div class="info">
+      <h1>Rahul Kumar Tiwari</h1>
+    <p>Transforming code into creativity, I build web experiences that connect, perform, and inspire.
+    From pixel-perfect designs to real-time functionality — I bring the web to life.</p>
+    </div>
+   </section>
+  <section id="about">
+  <div class="container">
+    <img src="/image/ChatGPT Image Jun 27, 2025, 10_51_43 AM.png" alt="Rahul Tiwari">
+    <div class="text-content">
+      <h2>About Me</h2>
+      <p>
+        I'm Rahul Kumar Tiwari, a Computer Science student and passionate Web Developer with hands-on experience in HTML, CSS, JavaScript, and Java. I build responsive websites, SPAs, and real-time apps using Firebase. Currently, I'm working as a Web Development Intern at CodSoft. I enjoy turning ideas into clean, user-friendly digital experiences. Skilled in UI/UX, SPA routing, and GitHub-based collaboration. Always eager to learn, create, and grow in the tech world.
+      </p>
+
+      <a href="/files/RahulTiwari-Resume.pdf" download class="resume-btn">
+        <i class="fas fa-download"></i> Download Resume
+      </a>
+
+    </div>
+  </div>
+</section>
+<section id="skill">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <a class="skill-card" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" title="HTML5 - Web Structure">
+        <i class="fab fa-html5"></i><span>HTML</span>
+      </a>
+
+      <a class="skill-card" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" title="CSS3 - Styling the Web">
+        <i class="fab fa-css3-alt"></i><span>CSS</span>
+      </a>
+
+      <a class="skill-card" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" title="JavaScript - Web Logic">
+        <i class="fab fa-js-square"></i><span>JavaScript</span>
+      </a>
+
+      <a class="skill-card" href="https://www.java.com/" target="_blank" title="Java - OOP & Backend">
+        <i class="fab fa-java"></i><span>Java</span>
+      </a>
+
+      <a class="skill-card" href="#" title="C - Procedural Programming">
+        <i class="fas fa-code"></i><span>C</span>
+      </a>
+
+      <a class="skill-card" href="#" title="C++ - OOP and STL">
+        <i class="fas fa-code"></i><span>C++</span>
+      </a>
+
+      <a class="skill-card" href="#" title="DSA - Data Structures & Algorithms">
+        <i class="fas fa-project-diagram"></i><span>DSA</span>
+      </a>
+
+      <a class="skill-card" href="https://firebase.google.com/" target="_blank" title="Firebase - Realtime DB, Auth">
+        <i class="fas fa-fire"></i><span>Firebase</span>
+      </a>
+
+      <a class="skill-card" href="https://github.com/" target="_blank" title="GitHub - Code Hosting">
+        <i class="fab fa-github"></i><span>GitHub</span>
+      </a>
+
+      <a class="skill-card" href="https://react.dev/" target="_blank" title="React.js - Frontend Library">
+        <i class="fab fa-react"></i><span>React.js</span>
+      </a>
+
+      <a class="skill-card" href="https://nodejs.org/" target="_blank" title="Node.js - JavaScript Runtime">
+        <i class="fab fa-node-js"></i><span>Node.js</span>
+      </a>
+
+      <a class="skill-card" href="https://www.mongodb.com/" target="_blank" title="MongoDB - NoSQL Database">
+        <i class="fas fa-database"></i><span>MongoDB</span>
+      </a>
+
+      <a class="skill-card" href="https://www.mysql.com/" target="_blank" title="MySQL - Relational Database">
+        <i class="fas fa-server"></i><span>MySQL</span>
+      </a>
+    </div>
+  </section>
+   
+  <section id="project">
+    <h2>Projects</h2>
+    <div class="project-card">
+    <div class="project-gallery">
+      <img src="/image/portfolio1.png" alt="Home Page">
+      <img src="/image/portfolio2.png" alt="Skills Section">
+      <img src="/image/portfolio3.png" alt="Projects Section">
+    </div>
+
+    <div class="project-info">
+       <h3>Portfolio Website</h3>
+       <p>A fully responsive personal portfolio built with HTML, CSS, and JavaScript. It features SPA-like navigation and smooth animations.</p>
+       <a href="#" target="_blank">Live Demo</a>
+     </div>
+   </div>
+ </section>
+
+ <section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form" action="https://formsubmit.co/rtiwari23763@gmail.com" method="POST">
+      <!-- Hidden Settings -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://yourdomain.com/thankyou.html">
+      <input type="hidden" name="_autoresponse" value="Thanks for reaching out to Rahul! I’ll get back to you shortly.">
+
+      <!-- Input Fields -->
+      <div class="input-group">
+        <i class="fas fa-user"></i>
+        <input type="text" name="name" placeholder="Your Name" required>
+      </div>
+
+      <div class="input-group">
+        <i class="fas fa-envelope"></i>
+        <input type="email" name="email" placeholder="Your Email" required>
+      </div>
+
+      <div class="input-group textarea">
+        <i class="fas fa-message"></i>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+
+      <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+    </form>
+  </section>
+
+
+
+
+  <!-- JavaScript to toggle menu -->
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("nav-links");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+  
+</body>
+</html>
